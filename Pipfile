@@ -29,6 +29,7 @@ seaborn = "*"
 sqlalchemy = "==1.3.*"
 statsmodels = "==0.10.*"
 tensorflow-gpu = ">=2.0.0"
+jupyterlab_tensorboard = {git = "https://github.com/chaoleili/jupyterlab_tensorboard.git", editable = true, ref = "master"}
 
 [requires]
 python_version = "3.6"
